@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  nginx:
+    build:
+      context: . #run Dockerfile to pull nginx
+    ports:
+      - 3000:80
+    volumes:
+      - ../../Reactjs/build:/usr/share/nginx/html
+      - ./default.conf:/etc/ngnix/conf.d/default.conf
+    # docker compose -p booknow-frontend-nginx up -d
+

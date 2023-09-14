@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+  mysql-db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      - MYSQL_DATABASE=booknow
+      - MYSQL_ROOT_PASSWORD=20233103
+    ports:
+      - '3306:3306'
+    expose:
+      - 3306
+
+  backend:
+    build:
+      context: ../Nodejs #link to Nodejs Folder
+      dockerfile: Dockerfile #link to Dockerfile
+    restart: unless-stopped
+    environment:
+      - DB_PORT=3306 #port of expose
+      - DB_HOST=mysql-db #name of db
+      - URL_REACT=http://localhost #overide React URL
+      # - DB_HOST=host.docker.internal #this link is same like localhost
+    ports:
+      - 8080:8080
+    expose:
+      - 8080
+  # docker-compose -p booknow-nodejs-mysql up -d
+
+  nginx:
+    image: nginx:1.23.3
+    ports:
+      - 80:80
+    volumes:
+      - ../Reactjs/build:/usr/share/nginx/html
+      - ./default.conf:/etc/nginx/conf.d/default.conf
+    # docker compose -p booknow-sern up -d
+

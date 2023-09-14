@@ -1,0 +1,95 @@
+.all-doctors-container {
+    background-color: #f0e8e8;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+
+    .all-doctors-select-specialty {
+        display    : flex;
+        align-items: center;
+        margin     : 1rem 3rem;
+
+        label {
+            padding-top : 0.5rem;
+            font-weight : bold;
+            margin-right: 1rem;
+        }
+
+        .adss-select {
+            border : none;
+            padding: 0 1rem;
+        }
+
+        .mobile {
+            height: 2.5rem;
+        }
+    }
+
+    .all-doctors-content {
+        height        : 100%;
+        margin        : 1rem 2rem;
+        display       : flex;
+        flex-direction: column;
+
+        .adc-content {
+            background-color: white;
+            margin-bottom   : 1rem;
+            padding-top     : 1rem;
+            height          : auto;
+            border-radius   : 5px;
+            display         : flex;
+            flex-direction  : row;
+            justify-content : space-around;
+
+            .adcc-left {
+                padding-left : 1.5rem;
+                padding-right: 1rem;
+                width        : 100%;
+            }
+
+            .dadcc-right {
+                padding-right: 1.5rem;
+                width        : 100%;
+
+
+                .dadccr-top {
+                    padding-left: 1.2rem;
+                    border-left : 1px solid #ddd;
+                }
+
+                .dadccr-bottom {}
+            }
+        }
+
+        .adc-content-mobile {
+            background-color: white;
+            margin          : 0 -0.5rem;
+            margin-bottom   : 1rem;
+            padding-top     : 1rem;
+            height          : auto;
+            border-radius   : 5px;
+            display         : flex;
+            flex-direction  : column;
+            justify-content : space-around;
+
+            .adcc-left {
+                padding-left : 1.5rem;
+                padding-right: 1rem;
+                width        : 100%;
+            }
+
+            .dadcc-right {
+                padding-right: 1.5rem;
+                width        : 100%;
+
+
+                .dadccr-top {
+                    padding-left: 1.2rem;
+                    border-left : 1px solid #ddd;
+                }
+
+                .dadccr-bottom {}
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+services:
+  mysql-db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      - MYSQL_DATABASE=booknow
+      - MYSQL_ROOT_PASSWORD=20233103
+    ports:
+      - '3306:3306'
+    expose:
+      - 3036
+
+  backend:
+    build:
+      context: ../../Nodejs #link to Nodejs Folder
+      dockerfile: Dockerfile #link to Dockerfile
+    restart: unless-stopped
+    environment:
+      - DB_PORT=3306 #port of expose
+      - DB_HOST=mysql-db #name of db
+      # - DB_HOST=host.docker.internal #this link is same like localhost
+    ports:
+      - 8080:8080
+
+# docker-compose -p booknow-nodejs-mysql up -d

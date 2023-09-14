@@ -1,0 +1,43 @@
+.manage-schedule-container {
+    .ms-title {
+        text-transform: uppercase;
+    }
+
+    .hour-pic-container {
+        margin         : 10px 0;
+        height         : 100px;
+        display        : flex;
+        flex-wrap      : wrap;
+        justify-content: space-between;
+        align-items    : center;
+
+        .btn-schedule {
+            flex-basis      : calc(25% - 10px);
+            /* 25% minus gap */
+            display         : flex;
+            align-items     : center;
+            justify-content : center;
+            border          : none;
+            outline         : none;
+            background-color: rgb(228, 223, 223);
+            border-radius   : 3px;
+
+            &.active {
+                background-color: orange;
+            }
+        }
+    }
+
+    .choose-date {
+        height: 38px;
+    }
+
+}
+
+.manage-schedule-table {
+    margin-top: 2.5rem;
+
+    .mstc-body {
+        font-size: 0.8rem;
+    }
+}

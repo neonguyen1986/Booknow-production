@@ -1,0 +1,253 @@
+{
+    "home-header": {
+        "specialty": "Specialty",
+        "search-doctor": "Search doctor by specialty",
+        "facilities": "Facilities",
+        "choose-facilities": "Choose facilities",
+        "doctor": "Doctor",
+        "find-doctor": "Find good doctor",
+        "package": "Package",
+        "health-check": "General health check",
+        "language": "Language",
+        "medical-background": "MEDICAL PLATFORM",
+        "comprehensive": "COMPREHENSIVE HEALTH CARE",
+        "specialist-exam": "Specialist Examination",
+        "remote-exam": "Remote Examination",
+        "general-exam": "General Examination",
+        "medical-test": "Medical Test",
+        "mental-health": "Mental Health",
+        "welcome": "Welcome ",
+        "ads": "Effortless Online Doctor Booking: Your Health, Your Schedule, Your Choice - Book Today!"
+    },
+    "about": {
+        "book-now": "book now",
+        "book-now-content": "Our platform seamlessly connects you with highly experienced and caring doctors who specialize in a wide spectrum of medical requirements. Utilizing our intuitive and user-friendly interface, you can effortlessly schedule appointments, choosing from a diverse array of flexible time slots that accommodate your busy schedule. Our team of dedicated healthcare professionals is committed to delivering tailor-made care and expert guidance, with an unwavering focus on your overall well-being and health.",
+        "contact": "contact us",
+        "email": "Email:",
+        "phone": "Phone:",
+        "address": "Address",
+        "email-input": "booknow@ltd.ca",
+        "phone-input": "000-000-0000",
+        "address-input": "1234 Book Now St, Calgary AB 0T0 0A0"
+    },
+    "home-footer": {
+        "text": "This page is created by Neo Nguyen"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "User System",
+            "manage-doctor": "Manage Doctors",
+            "manage-admin": "Manage Admins",
+            "redux-CRUD": "redux CRUD",
+            "user-CRUD": "user CRUD",
+            "doctor": "Doctors",
+            "manage-clinic": "Manage Clinics",
+            "specialty": "Specialties",
+            "manage-specialty": "Manage Specialties",
+            "handbook": "Handbooks",
+            "manage-handbook": "Manage Handbooks"
+        },
+        "doctor": {
+            "manage-schedule": "Manage schedule",
+            "manage-patient": "Manage patients"
+        }
+    },
+    "manage-user": {
+        "add": "Add New User",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "phone-number": "Phone Number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role-id": "Role Id",
+        "save": "Save",
+        "image": "Avatar",
+        "save-changes": "Save Changes",
+        "cancel-btn": "Cancel",
+        "title": "Manage User",
+        "action": "Action",
+        "modal-title": "Create a new user",
+        "save-change": "Save Changes",
+        "cancel": "Cancel",
+        "male": "Male",
+        "female": "Female",
+        "admin": "Admin",
+        "doctor": "Doctor",
+        "patient": "Patient"
+    },
+    "manage-patients": {
+        "title": "Manage Patients",
+        "choose-date": "Choose date:",
+        "email": "Email",
+        "full-name": "Full name",
+        "gender": "Gender",
+        "address": "Address",
+        "booking-date": "Booking date",
+        "booking-time": "Booking time",
+        "action": "Action",
+        "no-data": "No Data"
+    },
+    "home-page": {
+        "Specialties": "Specialties: ",
+        "home-specialties": "Expert Care, On Demand, Streamline Your Healthcare",
+        "best-doctors": "Best Doctors: ",
+        "doctor-ads": "Care You Can Trust",
+        "more-info": "MORE INFO...",
+        "detail-specialty": {
+            "filter": "Filter By Province:"
+        },
+        "all-doctors": {
+            "specialty-filter": "Filter By Specialty"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "doctor-title": "Create Doctors information",
+            "choose-doctor": "Doctor",
+            "choose-price": "Price",
+            "choose-payment": "Payment",
+            "choose-province": "Province",
+            "choose-specialty": "Specialty",
+            "choose-doctor-place-holder": "Choose Doctor",
+            "choose-price-place-holder": "Choose Price",
+            "choose-payment-place-holder": "Choose Payment Method",
+            "choose-province-place-holder": "Choose Province",
+            "choose-specialty-place-holder": "Choose Specialty",
+            "save": "Save",
+            "update": "Update",
+            "cancel": "Cancel",
+            "clinic-name": "Clinic name",
+            "clinic-address": "Clinic address"
+        },
+        "manage-specialty": {
+            "create-title": "CREATE SPECIALTIES",
+            "edit-title": "EDIT SPECIALTIES",
+            "image": "Specialty Image",
+            "save": "Save",
+            "create": " Create New",
+            "edit-delete": " Edit - Delete"
+        }
+    },
+    "manage-schedule": {
+        "title": "Manage doctors' examination plan",
+        "choose-doctor": "Choose doctor",
+        "choose-date": "Choose date",
+        "save": "Save"
+    },
+    "patient": {
+        "detail-doctor": {
+            "calendar": "calendar",
+            "doctor-avai": "Temporarily the doctor is full of appointments",
+            "free-booking": "Free booking  ",
+            "clinic-address": "Clinic Adress",
+            "price": "Price ",
+            "hide": "Hide information",
+            "more-detail": "More detail",
+            "payment-text": "Patients can pay by ",
+            "name": "Full name",
+            "phone-number": "Phone Number",
+            "address": "Address",
+            "date-of-birth": "Date of birth",
+            "gender": "Gender",
+            "test-type": "What do you want to test?",
+            "price-text": "This price is influenced by the doctor's title and years of experience"
+        },
+        "booking-modal": {
+            "price": "Price: ",
+            "free-booking": "Free booking  ",
+            "name": "Full name",
+            "phone-number": "Phone Number",
+            "address": "Address",
+            "date-of-birth": "Date of birth",
+            "gender": "Gender",
+            "test-type": "What do you want to test?",
+            "confirm": "Confirm",
+            "cancel": "Cancel"
+        },
+        "verify": {
+            "verify-success": "Thank you. You've just verified your booking!",
+            "verify-fail": "The appointment does not exist or has been verified",
+            "back-to-homepage": "Back to Homepage"
+        }
+    },
+    "articles": {
+        "specialist": {
+            "header": "Join Our Specialist Examination and Elevate Your Expertise!",
+            "p1": "Are you ready to take your professional journey to the next level? We are thrilled to announce the upcoming Specialist Examination at [Your Company Name]. This is an exceptional opportunity for individuals seeking to validate and enhance their expertise in their respective fields. Whether you're an established professional or an aspiring specialist, this examination is designed to recognize your skills and propel you towards excellence.",
+            "header2": "Information",
+            "ph2": "1. Validate Your Expertise",
+            "ph3": "2. Stand Out in Your Industry",
+            "ph4": "3. Expand Your Network",
+            "ph5": "4. Gain Company Recognition",
+            "p2": "Becoming a specialist requires rigorous knowledge and experience. By taking the Specialist Examination, you're not only validating your skills but also showcasing your commitment to your field. This recognition can open doors to new opportunities and career growth.",
+            "p3": "In today's competitive job market, standing out is essential. Holding a Specialist Examination certification can distinguish you as a top-tier professional in your industry. It demonstrates your dedication to continuous learning and staying up-to-date with the latest advancements.",
+            "p4": "The Specialist Examination brings together professionals from diverse backgrounds and industries. Engage in discussions, share insights, and build valuable connections with like-minded individuals. This network can be a source of inspiration and collaboration in the future.",
+            "p5": "Your accomplishment doesn't go unnoticed. [Your Company Name] values excellence and supports your growth. Upon successful completion of the examination, you'll be recognized within the company as a certified specialist, showcasing your dedication to mastery.",
+            "header3": "Get in touch",
+            "p6": "Ready to elevate your professional journey? Register now and embark on a path of recognition, growth, and excellence. For inquiries, contact:"
+        },
+        "remote": {
+            "header": "Ensuring Your Health from the Comfort of Home",
+            "p1": "In the digital age, advancements in technology have transformed the way we access healthcare services. One such innovation that has gained prominence is the concept of remote examination. With the aim of providing patients with a convenient and safe healthcare experience, our hospital is excited to introduce remote examination services.",
+            "header2": "Information",
+            "ph2": "1. What is Remote Examination?",
+            "ph3": "2. Is Remote Examination Right for You?",
+            "ph4": "3. Ensuring Privacy and Security",
+            "ph5": "4. Embrace the Future of Healthcare",
+            "p2": "Remote examination, also known as telemedicine or telehealth, involves the use of technology to facilitate medical consultations and examinations between patients and healthcare professionals. Through video calls, patients can receive medical advice, diagnoses, prescriptions, and even treatment plans, all from the comfort of their own homes.",
+            "p3": "Remote examination is suitable for a wide range of medical concerns, including minor illnesses, routine check-ups, medication refills, mental health consultations, and more. However, it's important to note that in cases requiring physical examinations, laboratory tests, or urgent medical attention, an in-person visit may be recommended.",
+            "p4": "Rest assured, our hospital values your privacy and maintains the highest standards of security for your personal and medical information. Our remote examination platform adheres to strict confidentiality protocols to safeguard your data.",
+            "p5": "As we adapt to the changing landscape of healthcare, remote examination emerges as a powerful tool to ensure your well-being conveniently and safely. Embrace this innovative approach to healthcare, and experience the benefits of expert medical care without leaving your home.",
+            "header3": "Get in touch",
+            "p6": "Experience healthcare from the comfort of home. Schedule your remote examination today. Please contact:"
+        },
+        "general": {
+            "header": "Discover Comprehensive Health Assessment",
+            "p1": "Are you looking to gain deep insights into your overall health? Look no further than Book Now General Examination program. Our comprehensive health assessment is designed to provide you with a holistic view of your well-being, helping you make informed decisions about your lifestyle and healthcare.",
+            "header2": "Information",
+            "ph2": "1. The Importance of General Examination",
+            "ph3": "2. Why Choose General Examination",
+            "ph4": "3. Booking your General Examination is simple",
+            "ph5": "4. Invest in Your Well-being Today!",
+            "p2": "Regular health check-ups are crucial for maintaining a healthy life. The General Examination at Book Now goes beyond the routine medical check-up. It delves into various aspects of your health, ensuring that potential issues are identified early, and preventive measures can be taken.",
+            "p3": "Our medical team comprises skilled professionals who are dedicated to providing you with the highest level of care. We utilize cutting-edge technology to ensure accurate diagnoses and comprehensive assessments. Our General Examination is tailored to your specific health needs, ensuring you receive the most relevant insights.",
+            "p4": "Reach out to our friendly staff to schedule your appointment. Visit our hospital on the scheduled date for your comprehensive examination. Our medical team will guide you through the assessment process, addressing any concerns you may have.",
+            "p5": "Prioritize your health by choosing Book Now General Examination. Gain a deeper understanding of your health status and embark on a journey towards a healthier and happier life. With our expertise and dedication to quality care, you can trust us to be your partner in well-being.",
+            "header3": "Get in touch",
+            "p6": "Book your General Examination appointment today and take the first step towards a healthier future! For inquiries and appointments, contact us at:"
+        },
+        "medical": {
+            "header": "Discover the Power of Medical Tests",
+            "p1": "Medical tests are a critical aspect of modern healthcare, providing valuable insights into patients' health conditions and aiding healthcare professionals in making accurate diagnoses. At Book Now, we understand the significance of medical tests in delivering effective and personalized care to our patients. Our state-of-the-art facilities, expert medical team, and comprehensive range of tests ensure that you receive the highest standard of diagnostics and treatment.",
+            "header2": "Information",
+            "ph2": "1. The Importance of Medical Tests",
+            "ph3": "2. Cutting-Edge Facilities and Expertise",
+            "ph4": "3. Personalized Care Journey",
+            "ph5": "4. Streamlined Process",
+            "p2": "Accurate diagnoses pave the way for timely and effective treatments. Medical tests play a pivotal role in identifying underlying health issues, monitoring chronic conditions, and even detecting potential problems before they manifest clinically. Whether you're visiting us for a routine check-up or addressing specific health concerns, our medical tests provide insights that guide our medical professionals in creating tailored treatment plans.",
+            "p3": "Our hospital is equipped with cutting-edge diagnostic equipment that ensures precision and accuracy in medical testing. Backed by a team of skilled medical professionals, including specialized pathologists, radiologists, and technicians, we deliver reliable results that guide your healthcare journey.",
+            "p4": "We understand that each patient is unique, and their medical needs vary. That's why we take a personalized approach to medical testing. Our medical professionals take the time to explain the significance of each test, address any concerns you may have, and create a testing plan that aligns with your health goals.",
+            "p5": "We value your time and well-being. Our streamlined testing process ensures minimal waiting times, efficient scheduling, and a comfortable environment. From the moment you step into our hospital, you can expect a seamless experience.",
+            "header3": "Get in touch",
+            "p6": "To book your medical test or learn more about our comprehensive range of services, visit our website or call us at:"
+        },
+        "mental": {
+            "header": "Supporting Wellness of Mind and Spirit",
+            "p1": "At Book Now, we understand that mental well-being is an integral aspect of overall health. We are proud to offer comprehensive and compassionate mental health care services, dedicated to providing support and treatment for individuals navigating the complexities of mental health challenges. With a team of experienced professionals and a patient-centered approach, we are committed to nurturing the wellness of the mind and spirit.",
+            "header2": "Information",
+            "ph2": "1. Why Mental Health Matters",
+            "ph3": "2. Holistic Care",
+            "ph4": "3. Collaborative Treatment",
+            "ph5": "4. Evidence-Based Practices",
+            "p2": "Mental health plays a crucial role in our daily lives, affecting our emotions, thoughts, and behaviors. Just as we prioritize physical health, nurturing our mental well-being is essential for leading a fulfilling life. Whether it's dealing with stress, anxiety, depression, or other conditions, seeking professional help can make a significant difference.",
+            "p3": "We view mental health within the context of your overall well-being. Our holistic approach addresses physical, emotional, and psychological aspects to create a comprehensive treatment plan that promotes healing.",
+            "p4": "We believe in collaboration and open communication. Our team works closely with each patient to understand their concerns, preferences, and goals. Together, we develop a personalized treatment roadmap that respects individual needs.",
+            "p5": "Our mental health care services are grounded in evidence-based practices. We incorporate therapies and treatments that have shown effectiveness in clinical settings, ensuring that you receive the highest standard of care.",
+            "header3": "Get in touch",
+            "p6": "To book your mental health test or learn more about our comprehensive range of services, visit our website or call us at:"
+        }
+    }
+}

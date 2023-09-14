@@ -1,0 +1,37 @@
+.doctor-profile-container {
+    .doctor-info {
+        display        : flex;
+        justify-content: space-between;
+
+        .docPro-left-content {
+            width: 20%;
+
+            .doctor-avatar {
+                width        : 100%;
+                border-radius: 50%;
+            }
+
+        }
+
+        .docPro-right-content {
+            width: 73%;
+
+            .up {
+                font-size  : 17px;
+                font-weight: 600;
+            }
+
+            .down-description {
+                font-size: 12px;
+            }
+
+            .down-date-time {}
+
+        }
+    }
+
+    .price {
+        margin-top : 0.5rem;
+        margin-left: 1.7rem;
+    }
+}

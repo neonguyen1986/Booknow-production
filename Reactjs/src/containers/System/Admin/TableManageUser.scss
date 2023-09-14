@@ -1,0 +1,101 @@
+.user-container {
+    height: 100%;
+    width : 100%;
+}
+
+.user-redux-table {
+    min-height: 300px;
+}
+
+#TableManageUser {
+    font-family    : Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width          : 100%;
+}
+
+#TableManageUser td,
+#TableManageUser th {
+    border : 1px solid #ddd;
+    padding: 8px;
+}
+
+#TableManageUser tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#TableManageUser tr:hover {
+    background-color: #ddd;
+}
+
+#TableManageUser th {
+    padding-top     : 12px;
+    padding-bottom  : 12px;
+    text-align      : left;
+    background-color: #212529;
+    color           : white;
+}
+
+.btn-edit,
+.btn-delete {
+    cursor          : pointer;
+    font-size       : 20px;
+    width           : 50px;
+    border          : none;
+    color           : black;
+    background-color: transparent;
+
+    &:hover {
+        background-color: transparent !important;
+        color           : rgba(255, 0, 0, 0.534);
+    }
+}
+
+.user-redux-pagination-controls {
+    margin-top                 : 1rem;
+    display                    : grid;
+    // grid-template-columns   : 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns      : repeat(auto-fill, minmax(4.762%, 1fr)); //21 columns
+
+    .prev-btn {
+        border          : 1px solid #ddd;
+        background-color: #ddd;
+        grid-area       : 1/10/2/11;
+        text-align      : left;
+        border-radius   : 1rem 0 0 1rem;
+    }
+
+    .number {
+        border          : 1px solid #ddd;
+        background-color: #ddd;
+        grid-area       : 1/11/2/12;
+        text-align      : center;
+    }
+
+    .next-btn {
+        border          : 1px solid #ddd;
+        background-color: #ddd;
+        grid-area       : 1/12/2/13;
+        text-align      : right;
+        border-radius   : 0 1rem 1rem 0;
+    }
+}
+
+//DELETE MODAL
+.delete-modal-content {
+    margin-top     : 1rem;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    gap            : 0.5rem;
+
+    .far.fa-times-circle {
+        font-size: 3rem;
+        color    : #dc3545
+    }
+}
+
+.delete-modal-footer {
+    display        : flex;
+    justify-content: space-around;
+}

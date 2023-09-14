@@ -1,0 +1,8 @@
+﻿1. cardiology: Tim mạch
+2. Dermatology: Da liễu
+3. Gastroenterology: Tiêu hóa
+4. gynecological:phụ khoa
+5. otorhinolaryngology: Tai mũi họng
+6. pediatrics: Nhi khoa
+7. chiropractic: Nắn khớp xương
+

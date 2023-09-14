@@ -1,0 +1,85 @@
+.doctor-more-info-container {
+    padding-left: 18px;
+    border-left : 1px solid #ddd;
+
+    .up-content {
+        .address-title {
+            text-transform: uppercase;
+            font-size     : 16px;
+            color         : #666;
+            font-weight   : bold;
+            margin        : 10px 0;
+        }
+
+        .clinic-name {
+            font-size  : 14px;
+            font-weight: 600;
+        }
+
+        .clinic-address {
+            font-size  : 14px;
+            font-weight: 200;
+            margin     : 10px 0;
+        }
+    }
+
+    .down-content {
+
+        .price-title {
+            text-transform: uppercase;
+            font-size     : 16px;
+            color         : #666;
+            font-weight   : bold;
+            margin        : 10px 0;
+            padding-top   : 10px;
+            border-top    : 1px solid #ddd;
+        }
+
+        .price-text {
+            border          : 1px solid #ddd;
+            background-color: #f3eeee;
+            display         : flex;
+            justify-content : space-between;
+            gap             : 15px;
+            padding         : 5px 3px;
+            margin          : 0 -3px;
+        }
+
+        .note {
+            border          : 1px solid #c9c7c7;
+            background-color: #d6d1d1c0;
+            padding         : 5px 3px;
+            margin          : 0 -3px;
+        }
+
+        .show-hide {
+            margin     : 10px 0;
+            font-weight: 400;
+            font-size  : 14px;
+            color      : #e7746f;
+            cursor     : pointer;
+        }
+    }
+
+    .price-show-hide {
+        font-size  : 16px;
+        color      : #666;
+        font-weight: bold;
+        margin     : 10px 0;
+        padding-top: 10px;
+        border-top : 1px solid #ddd;
+
+        .price {
+            font-weight: 200;
+            padding    : 0 20px;
+        }
+
+        .more-detail {
+            font-weight: 400;
+            font-size  : 14px;
+            color      : #e7746f;
+            cursor     : pointer;
+        }
+
+    }
+}

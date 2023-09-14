@@ -1,0 +1,62 @@
+.specMore-bkground {
+    background-color: #ddd;
+    padding-bottom  : 3rem;
+
+    .specMore-container {
+        display  : flex;
+        flex-wrap: wrap;
+
+        // width    : 100%;
+        /* width */
+        .specMore-content::-webkit-scrollbar {
+            width: 0.4rem;
+        }
+
+        /* Track */
+        .specMore-content::-webkit-scrollbar-track {
+            box-shadow   : inset 0 0 5px rgba(250, 250, 250, 0.11);
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        .specMore-content::-webkit-scrollbar-thumb {
+            background   : #ddddddb0;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        .specMore-content::-webkit-scrollbar-thumb:hover {
+            background: gray
+        }
+
+        .specMore-content {
+            background-color         : white;
+            // flex-basis            : calc(44% - 0px);
+            // border          : 1px solid red;
+            margin                   : 2rem 0.5rem 0 0.5rem;
+            padding                  : 1rem 1rem;
+            // padding-right      : 3rem;
+            border-radius            : 0.5rem;
+            height                   : 40rem;
+            width                    : 38.2rem;
+            overflow-x               : hidden;
+            box-shadow               : 4px 4px 8px rgba(0, 0, 0, 0.2);
+
+
+            .specMore-img-div {
+                .specMore-img {
+                    border-radius: 1rem;
+                }
+
+                .specMore-img-mobile {
+                    width: 100%;
+                }
+            }
+
+            .specMore-text {
+                margin-top: 1rem;
+            }
+
+        }
+    }
+}

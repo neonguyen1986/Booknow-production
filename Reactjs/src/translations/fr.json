@@ -1,0 +1,253 @@
+{
+    "home-header": {
+        "specialty": "Spécialité",
+        "search-doctor": "Rechercher un médecin par spécialité",
+        "facilities": "Installations",
+        "choose-facilities": "Choisissez les installations",
+        "doctor": "Médecin",
+        "find-doctor": "Trouver un bon médecin",
+        "package": "Emballer",
+        "health-check": "Bilan de santé général",
+        "language": "Langue",
+        "medical-background": "PLATEFORME MÉDICALE",
+        "comprehensive": "SOINS DE SANTÉ COMPLETS",
+        "specialist-exam": "Examen spécialiste",
+        "remote-exam": "Examen à distance",
+        "general-exam": "Examen général",
+        "medical-test": "Test médical",
+        "mental-health": "Santé mentale",
+        "welcome": "Bienvenue ",
+        "ads": "Réservation de médecin en ligne sans effort : votre santé, votre emploi du temps, votre choix - Réservez dès aujourd'hui !"
+    },
+    "about": {
+        "book-now": "réserver maintenant",
+        "book-now-content": "Notre plateforme vous met en relation de manière transparente avec des médecins hautement expérimentés et attentionnés spécialisés dans un large éventail de besoins médicaux. En utilisant notre interface intuitive et conviviale, vous pouvez facilement prendre rendez-vous en choisissant parmi une gamme diversifiée de créneaux horaires flexibles qui s'adaptent à votre emploi du temps chargé. Notre équipe de professionnels de la santé dévoués s'engage à fournir des soins sur mesure et des conseils d'experts, avec une attention constante portée à votre bien-être global et à votre santé.",
+        "contact": "contactez-nous",
+        "email": "E-mail :",
+        "phone": "Téléphone :",
+        "address": "Adresse",
+        "email-input": "ltd.ca",
+        "phone-input": "000-000-0000",
+        "address-input": "1234 Book Now St, Calgary AB 0T0 0A0"
+    },
+    "home-footer": {
+        "text": "Cette page est créée par Neo Nguyen"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Système d'utilisateurs",
+            "manage-doctor": "Gérer les médecins",
+            "manage-admin": "Gérer les administrateurs",
+            "redux-CRUD": "CRUD Redux",
+            "user-CRUD": "CRUD utilisateur",
+            "doctor": "Médecins",
+            "manage-clinic": "Gérer les cliniques",
+            "specialty": "Spécialités",
+            "manage-specialty": "Gérer les spécialités",
+            "handbook": "Manuels",
+            "manage-handbook": "Gérer les manuels"
+        },
+        "doctor": {
+            "manage-schedule": "Gérer le planning",
+            "manage-patient": "Gérer les patients"
+        }
+    },
+    "manage-user": {
+        "add": "Ajouter un nouvel utilisateur",
+        "email": "E-mail",
+        "password": "Mot de passe",
+        "first-name": "Prénom",
+        "last-name": "Nom de famille",
+        "phone-number": "Numéro de téléphone",
+        "address": "Adresse",
+        "gender": "Genre",
+        "position": "Poste",
+        "role-id": "ID du rôle",
+        "save": "Enregistrer",
+        "image": "Avatar",
+        "save-changes": "Enregistrer les modifications",
+        "cancel-btn": "Annuler",
+        "title": "Gérer l'utilisateur",
+        "action": "Action",
+        "modal-title": "Créer un nouvel utilisateur",
+        "save-change": "Enregistrer les modifications",
+        "cancel": "Annuler",
+        "male": "Homme",
+        "female": "Femme",
+        "admin": "Administrateur",
+        "doctor": "Docteur",
+        "patient": "Patient"
+    },
+    "manage-patients": {
+        "title": "Gérer les patients",
+        "choose-date": "Choisir la date :",
+        "email": "E-mail",
+        "full-name": "Nom complet",
+        "gender": "Genre",
+        "address": "Adresse",
+        "booking-date": "Date de réservation",
+        "booking-time": "Heure de réservation",
+        "action": "Action",
+        "no-data": "Pas de données"
+    },
+    "home-page": {
+        "Specialties": "Spécialités: ",
+        "home-specialties": "Soins experts, à la demande, rationalisez vos soins de santé",
+        "best-doctors": "Meilleurs Médecins: ",
+        "doctor-ads": "Des Soins en Qui Vous Pouvez Avoir Confiance",
+        "more-info": "VOIR PLUS...",
+        "detail-specialty": {
+            "filter": "Filtrer par province:"
+        },
+        "all-doctors": {
+            "specialty-filter": "Filtrer par spécialité"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "doctor-title": "Créer les informations des médecins",
+            "choose-doctor": "Médecin",
+            "choose-price": "Prix",
+            "choose-payment": "Paiement",
+            "choose-province": "Province",
+            "choose-specialty": "Spécialité",
+            "choose-doctor-place-holder": "Choisir un médecin",
+            "choose-price-place-holder": "Choisir un prix",
+            "choose-payment-place-holder": "Choisir un mode de paiement",
+            "choose-province-place-holder": "Choisir une province",
+            "choose-specialty-place-holder": "Choisir une spécialité",
+            "save": "Enregistrer",
+            "update": "Mettre à jour",
+            "cancel": "Annuler",
+            "clinic-name": "Nom de la clinique",
+            "clinic-address": "Adresse de la clinique"
+        },
+        "manage-specialty": {
+            "create-title": "CRÉER DES SPÉCIALITÉS",
+            "edit-title": "MODIFIER LES SPÉCIALITÉS",
+            "image": "Image de la spécialité",
+            "save": "Enregistrer",
+            "create": " Créer un nouveau",
+            "edit-delete": " Modifier - Supprimer"
+        }
+    },
+    "manage-schedule": {
+        "title": "Gérer le plan d'examen des médecins",
+        "choose-doctor": "Choisir le médecin",
+        "choose-date": "Choisir la date",
+        "save": "Enregistrer"
+    },
+    "patient": {
+        "detail-doctor": {
+            "calendar": "Calendrier",
+            "doctor-avai": "Temporairement, le médecin est complet",
+            "free-booking": "Réservation gratuite",
+            "clinic-address": "Adresse de la clinique",
+            "price": "Prix",
+            "hide": "Masquer l'information",
+            "more-detail": "Plus de détails",
+            "payment-text": "Les patients peuvent payer par ",
+            "name": "Nom complet",
+            "phone-number": "Numéro de téléphone",
+            "address": "Adresse",
+            "date-of-birth": "Date de naissance",
+            "gender": "Genre",
+            "test-type": "Quel type de test souhaitez-vous ?",
+            "price-text": "Ce prix est influencé par le titre du médecin et ses années d'expérience"
+        },
+        "booking-modal": {
+            "price": "Prix :",
+            "free-booking": "Réservation gratuite",
+            "name": "Nom complet",
+            "phone-number": "Numéro de téléphone",
+            "address": "Adresse",
+            "date-of-birth": "Date de naissance",
+            "gender": "Genre",
+            "test-type": "Quel type de test souhaitez-vous ?",
+            "confirm": "Confirmer",
+            "cancel": "Annuler"
+        },
+        "verify": {
+            "verify-success": "Merci. Vous venez de vérifier votre réservation !",
+            "verify-fail": "Le rendez-vous n'existe pas ou a déjà été vérifié",
+            "back-to-homepage": "Retour à la page d'accueil"
+        }
+    },
+    "articles": {
+        "specialist": {
+            "header": "Rejoignez notre examen de spécialiste et élevez votre expertise !",
+            "p1": "Êtes-vous prêt à faire passer votre parcours professionnel au niveau supérieur ? Nous sommes ravis d'annoncer le prochain examen de spécialiste à [Nom de votre entreprise]. Il s'agit d'une opportunité exceptionnelle pour les personnes souhaitant valider et valoriser leur expertise dans leurs domaines respectifs. Que vous soyez un professionnel confirmé ou un aspirant spécialiste, cet examen est conçu pour reconnaître vos compétences et vous propulser vers l'excellence.",
+            "header2": "Pourquoi participer ?",
+            "ph2": "1. Validez votre expertise",
+            "ph3": "2. Démarquez-vous dans votre secteur",
+            "ph4": "3. Développez votre réseau",
+            "ph5": "4. Gagnez la reconnaissance de l’entreprise",
+            "p2": "Devenir spécialiste nécessite des connaissances et une expérience rigoureuses. En passant l'examen de spécialiste, vous validez non seulement vos compétences, mais vous démontrez également votre engagement dans votre domaine. Cette reconnaissance peut ouvrir la porte à de nouvelles opportunités et à une évolution de carrière.",
+            "p3": "Dans le marché du travail concurrentiel d’aujourd’hui, se démarquer est essentiel. Détenir une certification d’examen de spécialiste peut vous distinguer en tant que professionnel de premier plan dans votre secteur. Cela démontre votre dévouement à l’apprentissage continu et à rester au courant des dernières avancées.",
+            "p4": "L'examen de spécialiste rassemble des professionnels issus d'horizons et de secteurs divers. Participez à des discussions, partagez des idées et établissez des liens précieux avec des personnes partageant les mêmes idées. Ce réseau peut être une source d’inspiration et de collaboration à l’avenir.",
+            "p5": "Votre réalisation ne passe pas inaperçue. [Le nom de votre entreprise] valorise l’excellence et soutient votre croissance. Après avoir réussi l'examen, vous serez reconnu au sein de l'entreprise en tant que spécialiste certifié, démontrant votre dévouement à la maîtrise.",
+            "header3": "Prenez contact",
+            "p6": "Prêt à élever votre parcours professionnel ? Inscrivez-vous maintenant et lancez-vous sur la voie de la reconnaissance, de la croissance et de l'excellence. Pour toute demande de renseignements, contactez:"
+        },
+        "remote": {
+            "header": "Assurer votre santé dans le confort de votre foyer",
+            "p1": "À l'ère du numérique, les progrès technologiques ont transformé la façon dont nous accédons aux services de santé. L'une de ces innovations qui a pris de l'importance est le concept d'examen à distance. Dans le but d'offrir aux patients une expérience de soins de santé pratique et sûre, notre hôpital est ravi d'introduire des services d'examen à distance.",
+            "header2": "Pourquoi participer ?",
+            "ph2": "1. Qu'est-ce que l'examen à distance ?",
+            "ph3": "2. L'examen à distance est-il fait pour vous ?",
+            "ph4": "3. Garantir la confidentialité et la sécurité",
+            "ph5": "4. Adoptez l'avenir des soins de santé",
+            "p2": "L'examen à distance, également appelé télémédecine ou télésanté, implique l'utilisation de la technologie pour faciliter les consultations et examens médicaux entre les patients et les professionnels de santé. Grâce aux appels vidéo, les patients peuvent recevoir des conseils médicaux, des diagnostics, des prescriptions et même des plans de traitement. , le tout dans le confort de leur foyer.",
+            "p3": "L'examen à distance convient à un large éventail de problèmes médicaux, notamment les maladies mineures, les examens de routine, les renouvellements de médicaments, les consultations en santé mentale, etc. Cependant, il est important de noter que dans les cas nécessitant des examens physiques, des examens de laboratoire des tests ou des soins médicaux urgents, une visite en personne peut être recommandée. ",
+            "p4": "Rassurez-vous, notre hôpital valorise votre vie privée et maintient les plus hauts standards de sécurité pour vos informations personnelles et médicales. Notre plateforme d'examen à distance adhère à des protocoles de confidentialité stricts pour protéger vos données.",
+            "p5": "Alors que nous nous adaptons à l'évolution du paysage des soins de santé, l'examen à distance apparaît comme un outil puissant pour garantir votre bien-être de manière pratique et sûre. Adoptez cette approche innovante des soins de santé et bénéficiez des avantages de soins médicaux experts sans quitter votre maison.",
+            "header3": "Prenez contact",
+            "p6": "Faites l'expérience des soins de santé dans le confort de votre foyer. Planifiez votre examen à distance dès aujourd'hui. Veuillez contacter :"
+        },
+        "general": {
+            "header": "Découvrez l'évaluation complète de la santé",
+            "p1": "Souhaitez-vous obtenir des informations approfondies sur votre état de santé général ? Ne cherchez pas plus loin que le programme d'examen général Réservez maintenant. Notre évaluation complète de votre santé est conçue pour vous fournir une vision globale de votre bien-être, vous aidant ainsi à prendre des décisions éclairées. décisions concernant votre style de vie et vos soins de santé. ",
+            "header2": "Pourquoi participer ?",
+            "ph2": "1. L'importance de l'examen général",
+            "ph3": "2. Pourquoi choisir l'examen général",
+            "ph4": "3. Réserver votre examen général est simple",
+            "ph5": "4. Investissez dans votre bien-être dès aujourd'hui !",
+            "p2": "Des examens de santé réguliers sont cruciaux pour maintenir une vie saine. L'examen général proposé par Book Now va au-delà de l'examen médical de routine. Il approfondit divers aspects de votre santé, garantissant que les problèmes potentiels sont identifiés rapidement, et des mesures préventives peuvent être prises.",
+            "p3": "Notre équipe médicale est composée de professionnels qualifiés qui se consacrent à vous fournir le plus haut niveau de soins. Nous utilisons une technologie de pointe pour garantir des diagnostics précis et des évaluations complètes. Notre examen général est adapté à vos besoins de santé spécifiques, garantissant vous recevez les informations les plus pertinentes.",
+            "p4": "Contactez notre personnel amical pour planifier votre rendez-vous. Visitez notre hôpital à la date prévue pour votre examen complet. Notre équipe médicale vous guidera tout au long du processus d'évaluation, en répondant à toutes vos préoccupations.",
+            "p5": "Donnez la priorité à votre santé en choisissant Réservez maintenant l'examen général. Obtenez une compréhension plus approfondie de votre état de santé et embarquez pour une vie plus saine et plus heureuse. Grâce à notre expertise et à notre engagement envers des soins de qualité, vous pouvez nous faire confiance pour être votre partenaire de bien-être.",
+            "header3": "Prenez contact",
+            "p6": "Prenez votre rendez-vous pour l'examen général dès aujourd'hui et faites le premier pas vers un avenir plus sain ! Pour toute demande de renseignements et rendez-vous, contactez-nous à :"
+        },
+        "medical": {
+            "header": "Découvrez la puissance des tests médicaux",
+            "p1": "Les tests médicaux sont un aspect essentiel des soins de santé modernes, fournissant des informations précieuses sur l'état de santé des patients et aidant les professionnels de la santé à établir des diagnostics précis. Chez Book Now, nous comprenons l'importance des tests médicaux pour fournir des soins efficaces et personnalisés aux patients. nos patients. Nos installations de pointe, notre équipe médicale experte et notre gamme complète de tests garantissent que vous recevez le plus haut niveau de diagnostic et de traitement. ",
+            "header2": "Information",
+            "ph2": "1. L'importance des tests médicaux",
+            "ph3": "2. Des installations et une expertise de pointe",
+            "ph4": "3. Parcours de soins personnalisé",
+            "ph5": "4. Processus rationalisé",
+            "p2": "Des diagnostics précis ouvrent la voie à des traitements rapides et efficaces. Les tests médicaux jouent un rôle central dans l'identification des problèmes de santé sous-jacents, la surveillance des maladies chroniques et même la détection des problèmes potentiels avant qu'ils ne se manifestent cliniquement. Que vous nous rendiez visite pour un contrôle de routine ou pour répondre à des problèmes de santé spécifiques, nos tests médicaux fournissent des informations qui guident nos professionnels de la santé dans la création de plans de traitement sur mesure.",
+            "p3": "Notre hôpital est équipé d'équipements de diagnostic de pointe qui garantissent la précision et l'exactitude des tests médicaux. Soutenus par une équipe de professionnels de la santé qualifiés, notamment des pathologistes spécialisés, des radiologues et des techniciens, nous fournissons des résultats fiables qui guident vos soins de santé. voyage.",
+            "p4": "Nous comprenons que chaque patient est unique et que ses besoins médicaux varient. C'est pourquoi nous adoptons une approche personnalisée en matière de tests médicaux. Nos professionnels de la santé prennent le temps d'expliquer l'importance de chaque test et de répondre à toutes vos préoccupations. , et créez un plan de test qui correspond à vos objectifs de santé.",
+            "p5": "Nous apprécions votre temps et votre bien-être. Notre processus de test rationalisé garantit des temps d'attente minimaux, une planification efficace et un environnement confortable. Dès le moment où vous entrez dans notre hôpital, vous pouvez vous attendre à une expérience fluide.",
+            "header3": "Prenez contact",
+            "p6": "Pour réserver votre examen médical ou en savoir plus sur notre gamme complète de services, visitez notre site Web ou appelez-nous au :"
+        },
+        "mental": {
+            "header": "Soutenir le bien-être de l'esprit et de l'esprit",
+            "p1": "Chez Book Now, nous comprenons que le bien-être mental fait partie intégrante de la santé globale. Nous sommes fiers d'offrir des services de soins de santé mentale complets et compatissants, dédiés à fournir un soutien et un traitement aux personnes confrontées aux complexités de la santé mentale. défis de santé. Avec une équipe de professionnels expérimentés et une approche centrée sur le patient, nous nous engageons à favoriser le bien-être de l'esprit et de l'esprit.",
+            "header2": "Pourquoi participer ?",
+            "ph2": "1. Pourquoi la santé mentale est importante",
+            "ph3": "2. Soins holistiques",
+            "ph4": "3. Traitement collaboratif",
+            "ph5": "4. Pratiques fondées sur des preuves",
+            "p2": "La santé mentale joue un rôle crucial dans notre vie quotidienne, affectant nos émotions, nos pensées et nos comportements. Tout comme nous accordons la priorité à la santé physique, nourrir notre bien-être mental est essentiel pour mener une vie épanouie. Qu'il s'agisse de gérer stress, anxiété, dépression ou autres conditions, demander l'aide d'un professionnel peut faire une différence significative. ",
+            "p3": "Nous envisageons la santé mentale dans le contexte de votre bien-être général. Notre approche holistique aborde les aspects physiques, émotionnels et psychologiques pour créer un plan de traitement complet qui favorise la guérison.",
+            "p4": "Nous croyons en la collaboration et en une communication ouverte. Notre équipe travaille en étroite collaboration avec chaque patient pour comprendre ses préoccupations, ses préférences et ses objectifs. Ensemble, nous développons une feuille de route de traitement personnalisée qui respecte les besoins individuels.",
+            "p5": "Nos services de soins de santé mentale sont fondés sur des pratiques fondées sur des données probantes. Nous intégrons des thérapies et des traitements qui ont démontré leur efficacité en milieu clinique, garantissant ainsi que vous recevez les plus hauts standards de soins.",
+            "header3": "Prenez contact",
+            "p6": "Pour réserver votre test de santé mentale ou en savoir plus sur notre gamme complète de services, visitez notre site Web ou appelez-nous au :"
+        }
+    }
+}

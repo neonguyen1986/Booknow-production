@@ -1,0 +1,96 @@
+.detail-secialty-all-container {
+    background-color: #f0e8e8;
+
+    .detail-specialty-description {
+        height: auto;
+        margin: 1rem 3rem;
+    }
+
+    .detail-specialty-select-province {
+        display    : flex;
+        align-items: center;
+        margin     : 1rem 3rem;
+
+        label {
+            padding-top : 0.5rem;
+            font-weight : bold;
+            margin-right: 1rem;
+        }
+
+        .detSpec-select {
+            border : none;
+            padding: 0 1rem;
+        }
+
+        .mobile {
+            height: 2.5rem;
+        }
+    }
+
+    .detail-specialty-container {
+        height        : 100%;
+        margin        : 1rem 3rem;
+        display       : flex;
+        flex-direction: column;
+
+        .detSpec-content {
+            background-color: white;
+            margin-bottom   : 1rem;
+            padding-top     : 1rem;
+            height          : auto;
+            border-radius   : 5px;
+            display         : flex;
+            flex-direction  : row;
+            justify-content : space-around;
+
+            .detSpec-left {
+                padding-left : 1.5rem;
+                padding-right: 1rem;
+                width        : 100%;
+            }
+
+            .detSpec-right {
+                padding-right: 1.5rem;
+                width        : 100%;
+
+
+                .detSpec-right-top {
+                    padding-left: 1.2rem;
+                    border-left : 1px solid #ddd;
+                }
+
+                .detSpec-right-bottom {}
+            }
+        }
+
+        .detSpec-content-mobile {
+            background-color: white;
+            margin          : 0 -2rem;
+            margin-bottom   : 1rem;
+            padding-top     : 1rem;
+            height          : auto;
+            border-radius   : 5px;
+            display         : flex;
+            flex-direction  : column;
+            justify-content : space-around;
+
+            .detSpec-left {
+                padding-left : 1.5rem;
+                padding-right: 1rem;
+                width        : 100%;
+            }
+
+            .detSpec-right {
+                padding-right: 1.5rem;
+                width        : 100%;
+
+                .detSpec-right-top {
+                    padding-left: 1.2rem;
+                    border-left : 1px solid #ddd;
+                }
+
+                .detSpec-right-bottom {}
+            }
+        }
+    }
+}
